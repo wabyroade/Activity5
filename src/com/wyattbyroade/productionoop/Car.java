@@ -53,22 +53,6 @@ public class Car extends Vehicle {
         returnString.append("Vehicle Model       : " + vehicleModel + "\n");
         returnString.append("Vehicle Type        : " + vehicleType + "\n");
         returnString.append(vehicleEngine + "\n");
-/*        returnString.append("Engine Manufacturer : " + vehicleEngine.getEngineManufacturer() + "\n");
-        returnString.append("Engine Manufactured : " + vehicleEngine.getEngineManufacturedDate() + "\n");
-        returnString.append("Engine Make         : " + vehicleEngine.getEngineMake() + "\n");
-        returnString.append("Engine Model        : " + vehicleEngine.getEngineModel() + "\n");
-        returnString.append("Engine Type         : " + vehicleEngine.getEngineType() + "\n");
-        returnString.append("Engine Cylinders    : " + vehicleEngine.getEngineCylinders() + "\n");
-*/
-/*        arrCount = 0;
-        for (Feature thisFeature:feature) {
-            if (thisFeature != null) {
-                if (arrCount++ == 0) returnString.append("Features            : ");
-                else returnString.append("                    : ");
-                returnString.append(thisFeature + "\n");
-            }
-        }
-*/
         returnString.append("Features : \n");
         returnString.append(getInteriorFeatures());
         returnString.append(getExteriorFeatures());
